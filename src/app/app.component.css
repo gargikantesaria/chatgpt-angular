@@ -1,0 +1,93 @@
+.chatgpt-main-page .info-section .info-text {
+    margin: 8px 0 18px 0;
+    color: #0fd0ec;
+    position: relative;
+}
+
+.chatgpt-main-page .info-section .info-text span {
+    color: #41e291;
+}
+
+.chatgpt-main-page .navbar-brand {
+    font-size: 32px;
+    color: #0b0e1f;
+    font-weight: 400;
+    line-height: inherit;
+    white-space: nowrap;
+    position: absolute;
+    left: 30px;
+    top: 4px;
+    cursor: pointer;
+}
+
+.chatgpt-main-page .navbar-text {
+    font-weight: 600;
+}
+
+
+.chatgpt-main-page .tech-used-section {
+    /* position: fixed;
+    bottom: 15px;
+    width: 100%; */
+    padding-top: 15px;
+}
+
+.chatgpt-main-page .techused {
+    font-size: 14px;
+    padding-left: 25px;
+}
+
+.chatgpt-main-page .techused img {
+    max-width: 100px;
+}
+
+.chatgpt-main-page .techused img.angular {
+    max-width: 23px;
+    margin-left: 10px;
+}
+
+.chatgpt-main-page .ownAI-link-div {
+    padding-right: 25px;
+}
+
+.chatgpt-main-page .ownAI-link {
+    color: #00b4d8 !important;
+}
+
+.chatgpt-main-page .ownAI-link:hover {
+    color: #0598b6 !important;
+}
+
+.chatgpt-main-page .powered-by-text {
+    position: absolute;
+    font-size: 12px;
+    right: 0;
+    color: #343a40 !important;
+}
+
+.tooltip-container:hover .custom-tooltip {
+    opacity: 1 !important;
+}
+
+@media only screen and (max-width:576px) {
+    .chatgpt-main-page .info-section {
+        margin-top: 45px;
+    }
+
+    .chatgpt-main-page .info-section .info-text {
+        font-size: 20px;
+        line-height: 18px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:992.98x) {
+    .chatgpt-main-page .info-section .info-text {
+        margin: 14px 0 0px 0;
+    }
+}
+
+@media only screen and (min-width:993px) and (max-width:1199.98px) {
+    .chatgpt-main-page .info-section .info-text {
+        margin: 8px 0 0px 0;
+    }
+}

@@ -1,0 +1,107 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+body {
+    background-color: #f3feff;
+    font-family: 'Montserrat' !important;
+}
+
+/* LOADER */
+.spinner {
+    /* margin: auto; */
+    width: 100px;
+    text-align: center;
+}
+
+.spinner>div {
+    width: 12px;
+    height: 12px;
+    background-color: #000000;
+    border-radius: 100%;
+    display: inline-block;
+    -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+    animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.spinner .bounce1 {
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+
+    0%,
+    80%,
+    100% {
+        -webkit-transform: scale(0)
+    }
+
+    40% {
+        -webkit-transform: scale(1.0)
+    }
+}
+
+@keyframes sk-bouncedelay {
+
+    0%,
+    80%,
+    100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+
+    40% {
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+    }
+}
+
+.tooltip-container {
+    position: relative;
+}
+
+.custom-tooltip {
+    position: absolute;
+    font-size: 14px;
+    line-height: 25px;
+    height: 26px;
+    right: -88px;
+    transform: translate(-50%, -50%);
+    border-radius: 6px;
+    text-align: center;
+    width: 100px;
+    background-color: #00B4D8;
+    color: #FFFFFF;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 20%);
+    transition: 0s;
+    opacity: 0;
+    pointer-events: none;
+    display: block;
+    z-index: 100;
+    bottom: 9px;
+}
+
+.toast-container .ngx-toastr {
+    box-shadow: 0 0 4px #999999 !important;
+}
+
+/* For error toast message */
+
+.toast-error {
+    /* background-color: rgba(222, 68, 54, 0.5) !important; */
+    background-color: #FF8886 !important;
+    border: 1px solid #ea857b !important;
+    border-radius: 4px !important;
+    color: #000000 !important;
+    font-size: 1rem !important;
+}
+
+.toast-title {
+    font-weight: 600 !important;
+    font-size: large !important;
+}
